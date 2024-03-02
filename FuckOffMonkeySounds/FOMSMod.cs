@@ -9,7 +9,7 @@ namespace FuckOffMonkeySounds
     public class FOMSMod : MelonMod { }
 
     [HarmonyPatch(typeof(VRRig), "LateUpdate")]
-    static class ComputerPatch
+    static class RigPatch
     {
         static void Prefix(VRRig __instance)
         {
