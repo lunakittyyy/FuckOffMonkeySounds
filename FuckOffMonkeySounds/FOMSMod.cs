@@ -2,7 +2,7 @@
 using HarmonyLib;
 using MelonLoader;
 
-[assembly: MelonInfo(typeof(FOMSMod), "FuckOffMonkeySounds", "0.2.0", "Luna")]
+[assembly: MelonInfo(typeof(FOMSMod), "FuckOffMonkeySounds", "1.0.0", "Luna")]
 [assembly: MelonGame("Another Axiom", "Gorilla Tag")]
 namespace FuckOffMonkeySounds
 {
