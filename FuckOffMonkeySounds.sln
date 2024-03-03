@@ -3,18 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuckOffMonkeySounds", "FuckOffMonkeySounds\FuckOffMonkeySounds.csproj", "{55B5E1E3-C976-493E-9C4E-7C41D427FCA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuckOffMonkeySounds", "FuckOffMonkeySounds\FuckOffMonkeySounds.csproj", "{55B5E1E3-C976-493E-9C4E-7C41D427FCA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		BEPINEX|Any CPU = BEPINEX|Any CPU
 		Debug|Any CPU = Debug|Any CPU
+		MELONLOADER|Any CPU = MELONLOADER|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55B5E1E3-C976-493E-9C4E-7C41D427FCA1}.BEPINEX|Any CPU.ActiveCfg = BEPINEX|Any CPU
+		{55B5E1E3-C976-493E-9C4E-7C41D427FCA1}.BEPINEX|Any CPU.Build.0 = BEPINEX|Any CPU
 		{55B5E1E3-C976-493E-9C4E-7C41D427FCA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{55B5E1E3-C976-493E-9C4E-7C41D427FCA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{55B5E1E3-C976-493E-9C4E-7C41D427FCA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{55B5E1E3-C976-493E-9C4E-7C41D427FCA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55B5E1E3-C976-493E-9C4E-7C41D427FCA1}.MELONLOADER|Any CPU.ActiveCfg = MELONLOADER|Any CPU
+		{55B5E1E3-C976-493E-9C4E-7C41D427FCA1}.MELONLOADER|Any CPU.Build.0 = MELONLOADER|Any CPU
+		{55B5E1E3-C976-493E-9C4E-7C41D427FCA1}.Release|Any CPU.ActiveCfg = BEPINEX|Any CPU
+		{55B5E1E3-C976-493E-9C4E-7C41D427FCA1}.Release|Any CPU.Build.0 = BEPINEX|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
